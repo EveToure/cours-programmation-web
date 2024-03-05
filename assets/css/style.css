@@ -1,61 +1,359 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
 
-/* GENERAL STYLE */
+/* GENERALSTYLE */
 *{
-    margin: 0;
+    margin : 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 :root{
     --black :#000000;
-    --title-color :#101828;
-    --text-color :#667085;
-    --gray :#8B8B8B;
-    --white :#FFFFFF;
-}
+    --title-color: #101828;
+    --text-color: #667085;
+    --gray: #8b8b8b;
+    --white: #ffffff;
+    --yellow: #fbff00;
+    --green: #00ff0d;
+    --blue: #001aff;
+    --orange: #ffae00;
 
+}
 body{
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    color: var(--text-color);
+    font-size: 20;
+    color: var(--textcolor);
 }
 
 
- /* NAV BAR */
- /* .nav-bar,.nb-left,.nb-right{ */
-    /* border: solid red 1px;
- } */
- .nav-bar{
-    width: 100%;
-    height: 72px;
-    padding: 0 50px;
+/* NAV-BAR */
+.nav-bar, .nb-left, .nb-right, .nbr-text, .nbr-button{
+     
+}
+
+.sectiongrise{
+    background-color: #F9FAFB;
+   
+}
+
+.sectiongrise .division {
+    padding: 5%;
+}
+
+.nav-bar{
+    color: white;
+    WIDTH: 100%;
+    height:72px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 50px ;
+    
+    
+}
+.nb-left{
+    WIDTH: 100%;
+    height:100%;
+
+    display: flex;
+    
+    align-items: center;
+}
+
+
+.nb-left div{
+    width:10% ;
+    height:60%;
+
+ 
+}
+
+.nb-left div img{
+    width: 50%;
+    height: 100%;
+}
+
+.nb-right{
+    WIDTH: 50%;
+    height:100%;
 
     display: flex;
     justify-content: start;
     align-items: center;
- }
+}
 
- .nb-left{
-    width: 50%;
+.nbr-text{
+    width: 70%;
     height: 100%;
 
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
- }
- .nb-left div{
-    width: 48px;
-    height: 48px;
+}
+.nav-items-over {
+    color: var(--black)
+}
 
-    border: solid red 1px;
- }
+.nbr-button {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px ;
+}
+.nbr-text  p {
+    
+    font-size: 16px;
+  
+    display: flex;
+ 
+}
+.nbr-text ,.nav-items-over{
+    font-weight: 700;
+    background-color: #ffffff;
 
- .nb-left div img{
-    width: 100%;
-    height: 100%;
- }
- .nb-right{
-    width: 50%;
-    height: 100%;
- }
+
+}
+
+.nbr-text p {  
+    font-size: 16px;
+}
+
+.ppp{
+    color: gray;
+}
+
+.button1 ,.buttton3 {
+    border-radius: 10px ;
+    width: 70%;
+    height: 60%;
+    margin:5px;
+    margin-right: 5px;
+    padding-right: 5px;
+    
+}
+
+.button1{
+    background-color: #ffffff;
+    padding-right:  5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.buttton2{
+    background-color:S;
+    color: white ;
+    padding-right: 5px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.buttton3{
+   background-color:black;
+   color: white ;
+   padding-right: 5px;
+   margin-right: 50px;
+   border-radius: 10px;
+}
+.grace{
+    height: 130px;
+    width: 80%;
+    display: grid;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    
+}
+
+
+
+.text1{
+    
+    height: 120px;
+    font-size: 50px;
+    text-align: center;
+}
+.text2{
+    color: gray;
+    text-align: center;
+    margin: 20px;
+}
+
+.boutton3{
+    height: 70px;
+    text-align: center;
+    color: gray;
+    border: solid 2px0;
+}
+.butt1{
+    height: 80%;
+    width: 120px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.butt2{
+    height: 80%;
+    width: 120px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.image1{
+    
+    text-align: center;
+}
+
+.grace2{
+    margin-top: 100px;
+    text-align: center;
+    padding: 80px;
+}
+.fonctionnalite{
+    text-align: center;
+}
+.Apropos{
+    font-size: 50px;
+}
+
+.chichi{
+    text-align: center;
+    
+}
+
+.chichi2{
+    
+    text-align: start;
+}
+
+.fiches1{
+    text-align: start;
+}
+
+.page2{
+    display: flex;
+}
+.souspage2{
+    
+    margin-top: 150px;
+    padding-left: 100px;
+    
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.image2{
+    
+    padding-left: 30px;
+}
+
+.grace3{
+    display:flex;
+    
+}
+
+.ella{
+    margin-top: 30%;
+    
+    font-size: 50px;
+}
+
+.chichi3{
+    
+    margin-top: 10px;
+    color: #667085;
+}
+
+.page3{
+   
+    display: flex;
+    background-color:#F5F5F5;
+    
+    
+    padding: 0%;
+    margin: 0%;
+
+}
+.dorcaces1{
+    
+    
+    width: 600px;
+}
+
+
+.button2{
+    display: flex;
+    margin-right: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+    padding: 0%;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.button21 {
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    height: 30px;
+    width:120px ;
+    padding: 0%;
+    
+}
+
+.button22{
+    border-radius: 5px;
+    background-color: rgb(15, 1, 1);
+    color: white;
+    margin-left: 5px;
+    display: block;
+    height: 30px;
+    width:120px ;
+    padding: 0%;
+    
+    
+}
+
+.text11 {
+    font-size: 150%;
+    display: block;
+    width:900px ;
+}
+
+
+.page4{
+    background-color: #F9FAFB
+    ;
+    height: 100px;  
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text2{
+    
+    padding-left: 50px;
+}
+.eve{
+    display: flex;
+    
+    padding-right: 50px;
+}
+
+
+.divlogo p {
+    margin-left: 10px;
+    justify-content: space-between;
+}
+.section2{
+    background-color: #FFFFFF;
+
+}
+
+.chintoko{
+    
+    color: #667085;
+}
